@@ -8,7 +8,7 @@ before_install:
 script:
     - docker run -e CI=true anoopsehdev/docker-react npm test
 
-deploy:
-    provider: gae
-    keyfile: "YOUR SERVICE ACCOUNT JSON FILE"
-    project: "YOUR PROJECT ID"
+# deploy:
+#     provider: gae
+#     keyfile: "YOUR SERVICE ACCOUNT JSON FILE"
+#     project: "YOUR PROJECT ID"
